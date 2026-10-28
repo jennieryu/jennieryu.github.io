@@ -685,7 +685,7 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
+  gap: 24px;
 }
 
 .case__metrics {
@@ -753,7 +753,7 @@ ul {
 }
 
 @media (min-width: 1024px) {
-  .metric__value { font-size: 72px; }
+  .metric__value { font-size: 64px; }
   .ecommerce .bleed__title { font-size: 12vw; }
 }
 
@@ -810,6 +810,28 @@ ul {
 
 .timeline__meta--tight {
   margin-top: 2px;
+}
+
+.resume__heading--spaced {
+  margin-top: 64px;
+}
+
+.skills {
+  display: grid;
+  gap: 24px;
+}
+
+.skill {
+  border-left: 2px solid rgba(175, 29, 29, 0.4);
+  padding-left: 24px;
+}
+
+.skill__list {
+  margin-top: 6px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--muted-fg);
 }
 
 .resume__download {
