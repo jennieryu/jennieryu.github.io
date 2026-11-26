@@ -15,6 +15,7 @@ assets/css/style.css    All styles (colors and fonts are CSS variables at the to
 assets/js/main.js       Mobile menu, scroll reveal, marquee navigation
 assets/img/             Profile photo & case study images
 Youngjoo_Ryu_Resume.pdf Downloadable resume
+Youngjoo_Ryu_Resume.docx Editable source of the resume PDF
 og-image.png            Link preview image (1200×630)
 ```
 
@@ -23,7 +24,8 @@ og-image.png            Link preview image (1200×630)
 - **Text:** edit the HTML file for that page directly.
 - **Nav menu:** the same `<nav>` is copied into all 5 pages, so change it in every one.
 - **Colors and fonts:** edit `:root` at the top of `assets/css/style.css`.
-- **Resume:** replace `Youngjoo_Ryu_Resume.pdf` with a new file of the same name.
+- **Resume:** edit `Youngjoo_Ryu_Resume.docx` (Calibri, US Letter, 0.4" margins), export it to PDF, and replace `Youngjoo_Ryu_Resume.pdf` with a file of the same name.
+  Without Word: `soffice --headless --convert-to pdf Youngjoo_Ryu_Resume.docx`.
 
 ## Run locally
 
